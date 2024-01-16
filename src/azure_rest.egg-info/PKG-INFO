@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
-Name: azurerm
+Name: azure-rest
 Version: 0.0.1
 Summary: This package hepls you to generate metrics cost and resource usage on Microsoft Azure
-Author: AnirudhaBidave
+Author: anirudhabidave
 Author-email: bidaveanirudha@gmail.com
 License: MIT
 Classifier: License :: OSI Approved :: MIT License

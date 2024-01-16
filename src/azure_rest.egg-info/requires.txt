@@ -1,6 +1,7 @@
+setuptools
 bson>=0.5.10
+requests>=2.30.0
 
 [dev]
 pytest>=7.0
 twine>=4.0.2
-requests>=2.30.0

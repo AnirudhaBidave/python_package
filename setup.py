@@ -1,25 +1,23 @@
-from setuptools import find_packages, setup
+from setuptools import setup, find_packages
+
 
 setup(
-    name="azurerm",
-    version="0.0.1",
-    description="This package hepls you to generate metrics cost and resource usage on Microsoft Azure",
-    package_dir={"": "azurerm"},
-    packages=find_packages(where="azurerm"),
-    # long_description=long_description,
-    # long_description_content_type="text/markdown",
-    # url="https://github.com/ArjanCodes/2023-package",
-    author="AnirudhaBidave",
-    author_email="bidaveanirudha@gmail.com",
-    license="MIT",
+  name = "azure_rest",
+  version = "0.0.1",
+  author = "anirudhabidave",
+  author_email = "bidaveanirudha@gmail.com",
+  description = "This package hepls you to generate metrics cost and resource usage on Microsoft Azure",
+  packages=find_packages(where='./src'),
+  package_dir={'': 'src'},
+  license="MIT",
     classifiers=[
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3.10",
         "Operating System :: OS Independent",
     ],
-    install_requires=["bson >= 0.5.10"],
+    install_requires=["setuptools", "bson >= 0.5.10", "requests>=2.30.0"],
     extras_require={
-        "dev": ["pytest>=7.0", "twine>=4.0.2", "requests>=2.30.0"],
+        "dev": ["pytest>=7.0", "twine>=4.0.2"],
     },
     python_requires=">=3.8",
 )
