@@ -1,4 +1,5 @@
 LICENCE
+README.md
 setup.py
 azurerm/azurerm.egg-info/PKG-INFO
 azurerm/azurerm.egg-info/SOURCES.txt

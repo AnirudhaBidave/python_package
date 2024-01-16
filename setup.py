@@ -21,5 +21,5 @@ setup(
     extras_require={
         "dev": ["pytest>=7.0", "twine>=4.0.2", "requests>=2.30.0"],
     },
-    python_requires=">=3.10",
+    python_requires=">=3.8",
 )
